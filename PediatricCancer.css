@@ -1,0 +1,53 @@
+/*
+* Ashley DeFrehn
+* 19 May 2019
+* Pediatric Cancer Cause
+*/
+
+/* The universal selector */
+/* Below is my background color, which is set at a simple light yellow/beige */
+*{margin: 0;
+padding: 0;
+background-color: blanchedalmond;
+}
+
+/* Body attributes here */
+/* below is the width and height settings for all 7 of my pictures that are used in the webpage */
+#kids1 {width: 200px; height: 200px;}
+#kids2 {width: 200px; height: 200px;}
+#kids3 {width: 200px; height: 200px;}
+#kids4 {width: 200px; height: 200px;}
+#kids5 {width: 400px; height: 150px;}
+#logo {width: 160px; height: 160px;}
+#facts {width: 250px; height: 300px;}
+
+/* Below is the horizonatl line that goes across my page, I used this instead of using the <hr /> tag */
+header {border-bottom: solid black 3px;}
+main {border-bottom: solid black 3px;}
+
+/* Below is the settings for my pictures inclusing which wasy they float, their border width color and style, their margin, and padding for the first and last picture */
+#kidsfig1 {float:right; margin: 6px;
+            border: solid black 2px;}
+#kidsfig2 {float:right; margin: 6px;
+            border: solid black 2px;}
+#kidsfig3 {float:right; margin: 6px;
+            border: solid black 2px;}
+#kidsfig4 {float:right; margin: 6px;
+            border: solid black 2px;}
+#kidsfig5 {float:right; margin: 6px;
+            border: solid black 2px;}
+#logofig {float:left; margin: 10px;
+    padding: 1px;
+    border: solid gray 5px;}
+#factsfig {float: right; margin: 3px; 
+    padding: 2px;
+    border: solid black 3px;}
+
+/* This makes it so my unordered lists are available to be seen on the page */ 
+ul, li {
+    list-style-position: inside;}
+/* This also helps my unordered lists available to be seen on the page, easier */
+body{
+  width: 90%;
+ margin: auto
+}
